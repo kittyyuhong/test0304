@@ -5,5 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-/*test K*/
+/*test K github进行测试*/
 module.exports = router;
+
+router.get('/myTest', function(req, res, next) {
+    res.render('myTestView', { title: 'This is my Test html!' });
+});
