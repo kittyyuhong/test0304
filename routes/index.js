@@ -1,4 +1,4 @@
-var express = require('express');
+ pvar express = require('express');
 var router = express.Router();
 
 /* GET home page. */
@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 /*test K github进dgsgsg22222行测试*/
-/*dggssdgsdg*/
+/*dggssdgsdg gighub*/
 module.exports = router;
 
 router.get('/myTest', function(req, res, next) {
